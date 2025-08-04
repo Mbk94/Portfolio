@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@0;1&family=Dosis:wght@200..800&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;   
+font-family:"Dosis", sans-serif;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+ }
+
+.img{
+    background-image: url(../img/banner-buisnessman.jpg);
+    width: 100%; 
+    height: 700px;
+    background-repeat: no-repeat;
+    
+    
+}
+.texte{
+    text-align: center;
+    color: white;
+    padding-top: 285px;
+    font-size: 50px;
+    padding-left: 150px;
+}
+.texteun{
+    font-size: 20px;
+    padding-right: 10px;
+}
+.textedeux{
+    padding-left: 580px;
+    font-size: 10px;
+    color: orange;
+    padding-bottom:390px;
+}
+.fleche{
+    justify-content: center;
+    width: 250px;
+    margin: 0 auto;
+    font-size: 50px;
+    padding-left: 95px;
+}

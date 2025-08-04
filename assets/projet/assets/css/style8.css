@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@0;1&display=swap');
+
+
+body{
+    width: 54%;
+  margin:  0 auto;
+  font-family: "Cormorant Garamond", serif; 
+
+  
+}
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+ }
+.tite{
+    color: darkred;
+    margin: 0 auto;
+    text-align: center;
+}
+header{
+    background-color: #edeef0;
+    margin: 0 auto;
+    
+}
+h1{
+   font-weight: 400;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+width: 350px;
+margin: auto;
+}
+.titre{
+    text-align: center;
+    margin: 15px;
+    
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    text-align: right;
+    background-color: #edeef0;
+    padding-right: 105px;
+    position: relative;
+
+  
+}
+.ligneun{
+    position: absolute;
+    z-index: 10;
+    top: 220px;
+    right: 170px;
+    width: 380px;
+}
+nav{
+    list-style: none;
+    text-align: center;
+    
+    
+}
+
+.imgdeux{
+    flex-direction: row-reverse;
+    display: flex;
+    margin: auto;
+    
+}
+#menu{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: #edeef0;
+    font-weight: 400;
+
+    
+}
+ 
+.imgtrois{
+    flex-direction: row;
+    display: flex;
+    margin: auto;
+}
+.imgquatre{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.imgcinq{
+    display: flex;
+    flex-direction: row;
+}
+.texte{
+    padding: 15px;
+    margin: auto;
+}
+.note{
+    background-color: black;
+    color: white;
+    width: 190px;
+}
+.pirate{
+    text-align: center;
+    position: relative;
+    padding-top: 55px;
+    padding-bottom: 150px;
+    background-color: #edeef0;
+    h4{
+        position: absolute;
+        left: 468px;
+        top: 79px;
+    }
+    
+}
+.ligne{
+    width: 50%;
+}
+h3{
+    margin: 0;
+}
+.margin{
+    margin: 0 auto;
+}

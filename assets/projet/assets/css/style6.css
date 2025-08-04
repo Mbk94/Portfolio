@@ -1,0 +1,203 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+   font-family:"Montserrat", sans-serif;;
+}
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+ }
+header{
+    background-image: url(../img/dinosaure.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+nav{
+background-color: rgba(0, 0, 0, 0.13);
+
+width: 100%;
+position: fixed;
+ /* opacity: 0.6; */
+
+}
+nav ul{
+    display: flex; 
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+     width: 100%;
+
+    
+
+}
+nav li{
+    width: 10%;
+    
+    height: 60px;
+    list-style: none;
+    display: flex;
+        justify-content: center;
+    align-items: center;
+    color: white;
+
+    
+   
+
+}
+nav li :hover{
+    border: 1px solid white;
+    
+}
+nav li :focus{
+    border-top: 2px solid rgb(141, 174, 79) ;
+
+}
+
+nav a{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+.img{
+     
+     padding-top: 180px;
+     display: flex;
+     justify-content: center;
+}
+.acheter:hover{
+
+    background-color: white;
+    color: #1C5F81;
+}
+.resa:hover{
+    background-color: white;
+    color: #1C5F81;
+
+}
+
+.logo{
+    display: flex;
+    justify-content:end;
+}
+.bouton{
+    background-color: #1C5F81;
+    height: 20px;
+    width: 200px;
+    padding: 5px;
+    
+}
+
+.texte{
+    margin-right:0px ;
+}
+h1{
+    text-align: center;
+    margin-top: 70px;
+}
+.entre img{
+    margin-left: 550px;
+    margin-top: 15px;
+}
+.gras{
+    margin-top: 20px;
+    text-align: center;
+}
+.trajet{
+    display: flex;
+    text-align: center;
+    justify-content:center;
+   gap: 70px;
+   margin-bottom: 80px;
+}
+.resa{
+
+    background-color: #1C5F81;
+    height: 20px;
+    text-align: center;
+    
+    margin: 0 auto 150px auto;
+    width: 130px;
+    color: white;
+    padding: 15px;
+
+}
+
+.route img{
+width: 35px;
+
+}
+.acheter{
+    background-color: #1C5F81;
+    
+    
+    text-align: center;
+    margin: 0 auto 50px auto; 
+    width: 200px; 
+    color: white;
+    padding: 10px;
+}
+.flex{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.par{
+    margin-top:35px ;
+    text-align: center;
+}
+.flex img {
+    padding: 5px;
+    height: 30px;
+}
+footer{
+    background-color: black;
+     margin-top: 50px;
+    color: white;
+    
+}
+.bas{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.page{
+     margin-top: 90px; 
+}
+.bas img{
+    margin-top: 30px;
+}
+.logo{
+    margin-right: 5px;
+}
+.en{
+    color: gray;
+}
+.gro{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.bouton:hover{
+    background-color: white;
+  
+    a:hover{
+        color: #1C5F81;
+    }
+}
+.entre img:hover{
+    transform: scale(1.2);
+}

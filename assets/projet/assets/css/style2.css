@@ -1,0 +1,247 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@400..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding:0;
+  
+}
+ .back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+ }
+.ti{
+    font-size: 1.5em;
+}
+.titre{
+    display: flex;
+   justify-content: space-around;
+   background-color: white;
+   margin-top: 15px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.colo{
+    color: orange;
+    padding-right: 20px;
+}
+nav{
+   display: flex;
+   gap: 26px;
+   background-color: white;
+   margin-bottom: 15px;
+}
+header{
+    width: 50%;
+    margin: 0 auto;
+}
+header img {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: -1%;
+}
+.menu{
+    background-color: black;
+}
+.millieu{
+    background-color:whitesmoke;
+    width: 50%;
+    margin: 0 auto;
+    height: 1150px;
+
+    
+}
+.imageun{
+    display: flex;
+    justify-content: space-evenly;
+ 
+    
+}
+.imageun img{
+    margin-top: 50px;
+}
+.imagedeux img{
+    margin-top: 60px;
+}
+.imagedeux{
+display: flex;
+justify-content: space-evenly;
+}
+.texte{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    
+}
+h3{
+  background-color: white; 
+  height: 30px;
+  
+    
+}
+.promo{
+    position: absolute;
+    top: 65px;
+    right: -11%;
+    background-color: black;
+    color: orange;
+    padding: 23px;
+    border-radius:8px;
+    width: 50px;
+   
+
+    height:2px;
+    
+    
+
+}
+.promo p {
+    font-size: 1.5em;
+    margin-top: -25%;
+   margin-left: -15%;
+   gap: 10px;
+}
+.placement{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+}
+button{
+background-color: black;
+color: white;
+padding: 5px;
+width: 160px;
+}
+.ligne{
+    text-decoration: line-through;
+    font-size: 1.8em;
+}
+.color{
+    color: orange;
+    font-size: 1.8em;
+}
+
+.contact{
+   position: relative;
+   background-color:white;
+   display: flex;
+ width: 25%;
+   margin: 0 auto;
+}
+.barre ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin: 0 auto;
+
+}
+.barre{
+    position: absolute;
+    margin-top:-1.5%;
+    background-color:white;
+    padding: 17px;
+    
+    margin-left: 35%;
+    border-radius: 9px;
+}
+footer{
+    background-color: rgb(66, 66, 66);
+   width: 100%;
+}
+.conditions{
+    display: flex;
+
+    
+}
+.logo img{
+ margin-top: 55px ;
+ text-align: center;
+display: flex;
+margin-left:47%;
+
+
+}
+
+.basdepage{
+   display: flex;
+   width:100%;
+ 
+  text-align: center;
+ justify-content: center;
+
+ gap: 20px;
+ 
+}
+
+.paragraphe{
+  display: flex;
+    margin-top: 40px;
+gap: 15px;
+    text-align: center;
+   
+}
+hr{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.reseaux{
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    margin-top: 25px;
+}
+.fin{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+ @media (max-width:768px){
+
+ 
+   .titre{
+    width: 90%;
+    display: flex;
+  
+   }
+   .menu .millieu{
+   display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+   }
+   .imageun img{
+    width: 70%;
+   }
+   .imagedeux img{
+    width: 70%;
+    margin: 0 auto;
+ }
+ .promo{
+    margin-right: 55px;
+ }
+ .barre{
+    width: 90%;
+ margin: 0 auto;
+ }
+ .conditions .basdepage{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+ }
+ }
+ 
