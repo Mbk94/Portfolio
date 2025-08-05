@@ -159,7 +159,7 @@ ul {
 
 .lang {
   color: white;
-  width: 18%;
+  width: 22%;
   padding: 3px;
   border-radius: 20px;
   text-align: center;
@@ -170,8 +170,9 @@ ul {
 .langage {
   display: flex;
   justify-content: space-around;
-  margin-top: 15%;
+  margin-top: 20%;
 }
+  
 .placement img:hover {
   transform: scale(1.1);
 }
@@ -431,8 +432,8 @@ button.next {
     width: 50%;
   }
   .placement img {
-    width: 5em;
-    height: 5em;
+    width: 3em;
+    height: 3em;
   }
   .app {
     width: 100%;
