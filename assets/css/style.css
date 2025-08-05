@@ -172,7 +172,7 @@ ul {
   justify-content: space-around;
   margin-top: 20%;
 }
-  
+
 .placement img:hover {
   transform: scale(1.1);
 }
@@ -391,7 +391,6 @@ button.next {
 
   .droite {
     width: 62%;
-   
   }
 
   h1 {
@@ -405,7 +404,6 @@ button.next {
     object-fit: contain;
   }
   .debut {
-    
     height: 450px;
   }
   .projet-video-section {
@@ -417,24 +415,25 @@ button.next {
   h1 {
     font-size: 2em;
   }
-  
+
   .carousel img {
     height: 30vh;
   }
 
   .logo img {
     width: 100%;
-
   }
- 
+  .logo {
+  }
+
   .placement img {
     width: 3em;
     height: 3em;
   }
-   .app {
+  .app {
     width: 80%;
-  height: 200px;
-  } 
+    height: 200px;
+  }
   .lang {
     font-size: 14px;
     width: 100%;
@@ -446,15 +445,14 @@ button.next {
     padding: 0.3em;
   }
   .droite {
-  height: 5px;
-    padding: 1px; 
-    margin: 0 auto;
-  
+    height: 5px;
+    padding: 3px;
+
+    width: 90%;
   }
   .debut {
     flex-direction: column;
     align-items: center;
-  
   }
   .bg-video {
     width: 100%;
@@ -470,14 +468,13 @@ button.next {
   }
 
   .droite h3 {
-    font-size: 8px;
+    font-size: 9px;
   }
 
   .droite p {
-    font-size: 7px;
+    font-size: 8px;
   }
   .droite li {
-    font-size: 7px;
+    font-size: 8px;
   }
- 
 }
